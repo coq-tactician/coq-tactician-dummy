@@ -1,0 +1,5 @@
+-R theories Tactician
+
+COQEXTRAFLAGS = -noinit
+
+theories/Ltac1Dummy.v
