@@ -7,6 +7,6 @@ Ltac searcher := fail
 
 Tactic Notation (at level 1) "search" "failing" tactic(t) := solve [t] || searcher.
 
-Tactic Notation (at level 1) "search" := fail 
+Ltac search := fail
   "Tactic 'search' requires the Tactician plugin to be installed."
   "Check https://coq-tactician.github.io for instructions".
