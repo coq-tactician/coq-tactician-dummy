@@ -5,7 +5,7 @@ Ltac searcher := fail
   "In order to re-synthesize, the Tactician plugin must be installed."
   "Check https://coq-tactician.github.io for instructions".
 
-Tactic Notation "search" "failing" tactic(t) := solve [t] || searcher.
+Tactic Notation "search" "with" "cache" tactic3(t) := solve [t] || searcher.
 
 Ltac search := fail
   "Tactic 'search' requires the Tactician plugin to be installed."
