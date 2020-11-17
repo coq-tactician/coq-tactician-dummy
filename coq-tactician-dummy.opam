@@ -22,10 +22,7 @@ depends: [
   "dune" {>= "2.5"}
 ]
 build: [
-  [make "-j%{jobs}%"]
-]
-install: [
-  [make "install"]
+  ["dune" "build" "--release" "-j" jobs]
 ]
 tags: [
   "keyword:tactic-learning"

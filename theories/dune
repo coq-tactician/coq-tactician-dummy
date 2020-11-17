@@ -1,0 +1,5 @@
+(coq.theory
+ (name Tactician)
+ (package coq-tactician-dummy)
+ (flags -q -noinit)
+)
