@@ -19,7 +19,7 @@ maintainer: "Lasse Blaauwbroek <lasse@blaauwbroek.eu>"
 authors: "Lasse Blaauwbroek <lasse@blaauwbroek.eu"
 depends: [
   "coq"
-  "dune" {>= "2.5"}
+  "dune" {>= "2.5" & build}
 ]
 build: [
   ["dune" "build" "--release" "-j" jobs]
