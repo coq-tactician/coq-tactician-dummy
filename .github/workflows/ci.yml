@@ -8,6 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: coq-community/docker-coq-action@v1.1.0
+      - uses: coq-community/docker-coq-action@v1.2.2
         with:
           opam_file: 'coq-tactician-dummy.opam'
