@@ -17,7 +17,7 @@ homepage: "https://coq-tactician.github.io"
 bug-reports: "https://github.com/coq-tactician/coq-tactician-dummy/issues"
 depends: [
   "dune" {>= "2.5" & build}
-  "coq"
+  "coq" {>= "8.6.1"}
 ]
 build: [
   ["dune" "subst"] {pinned}

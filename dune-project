@@ -23,4 +23,4 @@ by others, your package can depend on this package. Just add
 to go.")
   (depends
     (dune (and (>= 2.5) :build))
-    coq))
+    (coq (>= 8.6.1))))
