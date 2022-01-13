@@ -1,10 +1,10 @@
 Declare ML Module "ltac_plugin".
 
 Tactic Notation (at level 4) "search" "with" "cache" tactic3(t) := fail
-  "'search with cache' has been renamed to 'synth with cache'"
+  "'search with cache' has been renamed to 'synth with cache'".
 
 Tactic Notation (at level 4) "search" := fail
-  "'search' has been renamed to 'synth'"
+  "'search' has been renamed to 'synth'".
 
 (* These notations are put on a lower level so that the real Tactician can override it.
    Note that tactic redefinition does not work, because this module might be loaded _later_
