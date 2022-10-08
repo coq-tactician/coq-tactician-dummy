@@ -1,6 +1,6 @@
 # A dummy version of Tactician
 
-For the main repository, see [coq-tactician](https://github.com/coq-tactician/coq-tactician)
+For the main Tactician repository, see [coq-tactician](https://github.com/coq-tactician/coq-tactician)
 
 This package acts as a stand-in for the Tactician plugin (`coq-tactician`).
 It provides short files that replicate Tactician's tactics without actually
