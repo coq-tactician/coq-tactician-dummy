@@ -1,4 +1,4 @@
-Declare ML Module "ltac_plugin".
+Declare ML Module "ltac_plugin:coq-core.plugins.ltac".
 
 Tactic Notation (at level 4) "search" "with" "cache" tactic3(t) := fail
   "'search with cache' has been renamed to 'synth with cache'".

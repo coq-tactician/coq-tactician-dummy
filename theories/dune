@@ -1,5 +1,8 @@
 (coq.theory
  (name Tactician)
  (package coq-tactician-dummy)
- (flags -q -noinit)
+ (flags -q)
+ (stdlib no)
+ (plugins
+  coq-core.plugins.ltac)
 )
