@@ -13,6 +13,7 @@ by others, your package can depend on this package. Just add
 to go."""
 maintainer: ["Lasse Blaauwbroek <lasse@blaauwbroek.eu>"]
 authors: ["Lasse Blaauwbroek <lasse@blaauwbroek.eu>"]
+license: "MIT"
 homepage: "https://coq-tactician.github.io"
 bug-reports: "https://github.com/coq-tactician/coq-tactician-dummy/issues"
 depends: [

@@ -21,4 +21,5 @@ Tactician through your `coqrc` file. In order for your package to be compilable
 by others, your package can depend on this package. Just add
 `From Tactician Require Import Ltac1Dummy` in your development and you are good
 to go.")
+ (license MIT)
  (depends coq-core))
