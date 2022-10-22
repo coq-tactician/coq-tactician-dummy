@@ -6,7 +6,3 @@ tags: [
   "category:Miscellaneous/Coq Extensions"
   "logpath:Tactician"
 ]
-depends: [
-  "dune" {>= "2.5"}
-  "coq" {>= "8.6.1" & < "8.17~"} | "coq-core"
-]

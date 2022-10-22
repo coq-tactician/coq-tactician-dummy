@@ -20,4 +20,5 @@ have your package directly depend on `coq-tactician`. Instead you should load
 Tactician through your `coqrc` file. In order for your package to be compilable
 by others, your package can depend on this package. Just add
 `From Tactician Require Import Ltac1Dummy` in your development and you are good
-to go."))
+to go.")
+   (depends (coq (and (>= 8.6.1) (< 8.17~)))))
