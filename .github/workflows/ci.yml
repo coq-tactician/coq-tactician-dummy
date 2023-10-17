@@ -11,3 +11,9 @@ jobs:
       - uses: coq-community/docker-coq-action@v1.2.2
         with:
           opam_file: 'coq-tactician-dummy.opam'
+          before_install: |
+            startGroup "Print opam config"
+              opam config list; opam repo list; opam list
+              opam remove coq-stdlib -y # Make sure we can build without stdlib
+              opam pin add dune 3.7.1 -y # Until ocaml/dune#8958 is fixed
+            endGroup
