@@ -17,8 +17,8 @@ license: "MIT"
 homepage: "https://coq-tactician.github.io"
 bug-reports: "https://github.com/coq-tactician/coq-tactician-dummy/issues"
 depends: [
-  "dune" {>= "3.5"}
   "coq-core"
+  "dune" {>= "3.5" & < "3.8~"}
   "odoc" {with-doc}
 ]
 build: [
