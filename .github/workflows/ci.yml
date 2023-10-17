@@ -11,3 +11,4 @@ jobs:
       - uses: coq-community/docker-coq-action@v1.2.2
         with:
           opam_file: 'coq-tactician-dummy.opam'
+          coq_version: '8.16'
