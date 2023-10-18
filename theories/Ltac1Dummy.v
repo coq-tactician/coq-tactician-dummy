@@ -15,7 +15,7 @@ Tactic Notation (at level 4) "synth" "with" "cache" tactic3(t) := solve [t] || (
   "Check https://coq-tactician.github.io for instructions").
 
 Tactic Notation (at level 4) "synth" := fail
-  "Tactic 'search' requires the Tactician plugin to be installed."
+  "Tactic 'synth' requires the Tactician plugin to be installed."
   "Check https://coq-tactician.github.io for instructions".
 
 Tactic Notation (at level 4) "tactician" "ignore" tactic3(t) := t.
